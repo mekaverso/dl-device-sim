@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Blue bolt icon representing energy monitor -->
+    <path
+        android:fillColor="#0066FF"
+        android:pathData="M54,24 L38,56 L48,56 L44,84 L70,48 L58,48 L66,24 Z" />
+</vector>

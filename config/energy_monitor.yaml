@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────────────────────────
+#  Mekatronik ModbusDeviceSIM — Energy Monitor Configuration
+# ─────────────────────────────────────────────────────────────
+
+device:
+  type: energy_monitor
+  slave_id: 1
+
+# Modbus RTU (Serial) transport
+# Requires com0com virtual COM port pair (Windows)
+# or socat virtual PTY pair (Linux)
+rtu:
+  enabled: false
+  port: "COM10"          # Simulator side of com0com pair
+  baudrate: 9600
+  bytesize: 8
+  parity: "N"            # N=None, E=Even, O=Odd
+  stopbits: 1
+
+# Modbus TCP (Ethernet) transport
+tcp:
+  enabled: true
+  host: "0.0.0.0"        # Bind to all interfaces
+  port: 502              # Standard Modbus TCP port (use 5020 if 502 needs admin)
+
+# Simulation parameters
+simulation:
+  update_interval: 1.0   # Seconds between value updates
+  energy_speed: 1.0      # Energy accumulation multiplier (100 = fast demo)
+  noise_scale: 0.02      # Value noise amplitude (fraction of range)
+  drift_speed: 0.1       # How fast values wander (lower = slower)
