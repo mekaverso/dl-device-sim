@@ -183,7 +183,7 @@ fun ServerControlCard(state: SimulatorUiState, vm: SimulatorViewModel) {
                 }
 
                 Button(
-                    onClick = { if (state.isRunning) vm.stopSimulation() else vm.startSimulation(502) },
+                    onClick = { if (state.isRunning) vm.stopSimulation() else vm.startSimulation(5020) },
                     colors = ButtonDefaults.buttonColors(
                         containerColor = if (state.isRunning) AccentRed else AccentGreen,
                     ),
@@ -225,7 +225,7 @@ fun DevicePanelCard(state: SimulatorUiState, vm: SimulatorViewModel) {
                         painter = painterResource(id = R.drawable.mekatronik_logo),
                         contentDescription = "Mekatronik",
                         modifier = Modifier.height(22.dp),
-                        contentScale = ContentScale.FitHeight,
+                        contentScale = ContentScale.FillHeight,
                     )
                     Spacer(Modifier.height(2.dp))
                     Text(

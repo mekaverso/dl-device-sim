@@ -19,7 +19,7 @@ enum class DeviceType(val displayName: String, val modelId: String) {
 data class SimulatorUiState(
     val isRunning: Boolean = false,
     val deviceType: DeviceType = DeviceType.ENERGY_MONITOR,
-    val serverPort: Int = 502,
+    val serverPort: Int = 5020,
     val connectedClients: Int = 0,
     val ipAddress: String = "---",
     val registerValues: Map<Int, Double> = emptyMap(),
@@ -46,7 +46,7 @@ class SimulatorViewModel(app: Application) : AndroidViewModel(app) {
         _uiState.value = _uiState.value.copy(deviceType = type, lcdPage = 0)
     }
 
-    fun startSimulation(port: Int = 502) {
+    fun startSimulation(port: Int = 5020) {
         if (_uiState.value.isRunning) return
 
         val deviceType = _uiState.value.deviceType
