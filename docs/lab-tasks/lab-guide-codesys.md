@@ -16,7 +16,7 @@
 │  │ (Dev. System V3) │   127.0.0.1       │       │  MK-VFD7         │
 │  └──────────────────┘                   │  WiFi │                  │
 │  ┌──────────────────┐                   │◄─────►│  Modbus TCP      │
-│  │ CODESYS Control  │◄──────────────────┘       │  Server :502     │
+│  │ CODESYS Control  │◄──────────────────┘       │  Server :5020    │
 │  │ Win (SoftPLC)    │   Modbus TCP Client        │  Unit ID: 1      │
 │  └──────────────────┘                           └──────────────────┘
 └─────────────────────────────────────────┘
@@ -44,7 +44,7 @@ Both must be installed on the student laptop. The Development System is the IDE;
 1. Open **ModbusDeviceSIM** on the phone.
 2. Select the device: **MK-EM3P** (energy monitor) or **MK-VFD7** (motor drive).
 3. Tap **START** — the server status turns green.
-4. Note the IP address displayed, e.g.: `192.168.1.45:502`
+4. Note the IP address displayed, e.g.: `192.168.1.45:5020`
 5. Keep the screen on throughout the lab.
 
 ---
@@ -99,7 +99,7 @@ The **Device Tree** is on the left panel (tab: **Devices**).
 | Field           | Value                             |
 |-----------------|-----------------------------------|
 | IP Address      | Phone's IP (e.g. `192.168.1.45`) |
-| Port            | `502`                             |
+| Port            | `5020`                            |
 | Unit Identifier | `1`                               |
 
 ---

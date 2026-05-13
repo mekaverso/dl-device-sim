@@ -11,7 +11,7 @@
 [ Android Phone ]                    [ Laptop ]
   MK-EM3P or MK-VFD7          EasyModbusTCP Client
   Modbus TCP Server  ←──WiFi──→  Modbus TCP Client
-  Port 502                        (same subnet)
+  Port 5020                       (same subnet)
 ```
 
 The phone acts as a **Modbus TCP server** (the device). The laptop acts as the **master/client** that polls and writes registers.
@@ -27,7 +27,7 @@ The phone acts as a **Modbus TCP server** (the device). The laptop acts as the *
 3. Tap **START**. The status changes to **RUNNING** in green.
 4. Note the address shown below the status, e.g.:
    ```
-   192.168.1.45:502
+   192.168.1.45:5020
    ```
    This is your **server IP** — write it down.
 5. Keep the screen on (prevent sleep) while the lab is running.
@@ -70,7 +70,7 @@ If you get replies, you're ready to proceed.
 | Field       | Value                             |
 |-------------|-----------------------------------|
 | IP Address  | Phone's IP (e.g. `192.168.1.45`) |
-| Port        | `502`                             |
+| Port        | `5020`                            |
 | Unit ID     | `1`                               |
 
 3. Click **Connect**. The status indicator should turn green.
