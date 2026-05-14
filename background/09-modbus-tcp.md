@@ -483,4 +483,4 @@ O Wireshark **decodifica automaticamente** o Modbus se reconhecer a porta. Se su
 
 ---
 
-**Próximo módulo:** [10-praticas-laboratorio.md](10-praticas-laboratorio.md)
+**Próximo módulo:** [10-praticas-visao-geral.md](10-praticas-visao-geral.md) — orientação para escolher e executar as 7 práticas de laboratório.

@@ -49,8 +49,10 @@ Ao final da disciplina, o aluno deverá ser capaz de:
 | 7      | Modbus ASCII — Aspectos Específicos               | 2         | Teórica    |
 | 8      | Fundamentos de Redes TCP/IP                       | 6         | Teórica    |
 | 9      | Modbus TCP — Encapsulamento e Particularidades    | 6         | Teórica + 2h Prática |
-| 10     | Práticas Avançadas com Ferramentas                | —         | 8h Prática |
-| 11     | Projeto Integrador                                | —         | 2h Prática + projeto |
+| 10     | Visão Geral das Práticas                          | 0,5       | Orientação |
+| 11-13  | Práticas com MK-EM3P (medidor): EasyModbus, Python, Node-RED | 5,5 | Prática individual |
+| 14-16  | Práticas com MK-VFD7 (VFD): EasyModbus, Python, Node-RED     | 5,5 | Prática individual |
+| 17     | Prática em Grupo Multi-dispositivos               | 4         | Prática em grupo |
 
 ---
 
@@ -113,9 +115,9 @@ Ao final da disciplina, o aluno deverá ser capaz de:
 | 10     | **Prova teórica I** + Módulo 7: Modbus ASCII                   |
 | 11     | Módulo 8: TCP/IP — endereçamento, sockets, portas              |
 | 12     | Módulo 9: Modbus TCP — MBAP, encapsulamento                    |
-| 13     | Módulo 10: Lab 03 — Modbus TCP com ModbusDeviceSIM             |
-| 14     | Módulo 10: Lab 04 — pymodbus + Lab 05 — Node-RED               |
-| 15     | **Prova teórica II** + Projeto integrador final                |
+| 13     | Práticas 1-3: MK-EM3P (EasyModbus, Python, Node-RED)           |
+| 14     | Práticas 4-6: MK-VFD7 (EasyModbus, Python, Node-RED)           |
+| 15     | **Prova teórica II** + Prática 7 em grupo (multi-dispositivos) |
 
 ---
 
@@ -148,8 +150,14 @@ Esta disciplina é acompanhada por uma série de documentos em `background/`:
 | `07-modbus-ascii.md`                             | Variante ASCII e LRC |
 | `08-fundamentos-tcp-ip.md`                       | IP, TCP, UDP, sockets, portas |
 | `09-modbus-tcp.md`                               | MBAP, encapsulamento, porta 502 |
-| `10-praticas-laboratorio.md`                     | Roteiros das 8 práticas |
-| `11-projeto-integrador.md`                       | Especificação do projeto final |
+| `10-praticas-visao-geral.md`                     | Visão geral e índice das práticas |
+| `11-pratica-em3p-easymodbus.md`                  | Prática 1: medidor com EasyModbusTCP |
+| `12-pratica-em3p-python.md`                      | Prática 2: medidor com Python |
+| `13-pratica-em3p-nodered.md`                     | Prática 3: medidor com Node-RED |
+| `14-pratica-vfd7-easymodbus.md`                  | Prática 4: VFD com EasyModbusTCP |
+| `15-pratica-vfd7-python.md`                      | Prática 5: VFD com Python |
+| `16-pratica-vfd7-nodered.md`                     | Prática 6: VFD com Node-RED |
+| `17-pratica-grupo-multi-dispositivos.md`         | Prática 7: 3 alunos, 3 smartphones, 3 laptops |
 
 ---
 
