@@ -30,17 +30,17 @@ Material didático completo para uma disciplina de **comunicações industriais*
 | 7 | [07-modbus-ascii.md](07-modbus-ascii.md) | Modbus ASCII: variante textual | 2 h |
 | 8 | [08-fundamentos-tcp-ip.md](08-fundamentos-tcp-ip.md) | TCP/IP, sockets, portas | 6 h |
 | 9 | [09-modbus-tcp.md](09-modbus-tcp.md) | Modbus TCP: MBAP, encapsulamento | 6 h |
-| 10 | [10-praticas-visao-geral.md](10-praticas-visao-geral.md) | Visão geral das práticas | — |
-| 11 | [11-pratica-em3p-easymodbus.md](11-pratica-em3p-easymodbus.md) | Prática 1: EM3P + EasyModbusTCP | 1.5 h |
-| 12 | [12-pratica-em3p-python.md](12-pratica-em3p-python.md) | Prática 2: EM3P + Python | 1.5 h |
-| 13 | [13-pratica-em3p-nodered.md](13-pratica-em3p-nodered.md) | Prática 3: EM3P + Node-RED | 2 h |
-| 14 | [14-pratica-vfd7-easymodbus.md](14-pratica-vfd7-easymodbus.md) | Prática 4: VFD7 + EasyModbusTCP | 1.5 h |
-| 15 | [15-pratica-vfd7-python.md](15-pratica-vfd7-python.md) | Prática 5: VFD7 + Python | 2 h |
-| 16 | [16-pratica-vfd7-nodered.md](16-pratica-vfd7-nodered.md) | Prática 6: VFD7 + Node-RED | 2 h |
-| 17 | [17-pratica-grupo-1-3clientes-1vfd.md](17-pratica-grupo-1-3clientes-1vfd.md) | Prática Grupo 1: 3 clientes / 1 VFD | 3 h |
-| 18 | [18-pratica-grupo-2-1cliente-3vfds.md](18-pratica-grupo-2-1cliente-3vfds.md) | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) | 3 h |
-| 19 | [19-pratica-grupo-3-3clientes-3vfds.md](19-pratica-grupo-3-3clientes-3vfds.md) | Prática Grupo 3: 3 clientes / 3 VFDs | 3 h |
-| 20 | [20-pratica-grupo-4-mini-planta.md](20-pratica-grupo-4-mini-planta.md) | Prática Grupo 4: 2 VFDs + 1 medidor | 4 h |
+| 10 | [10-praticas-visao-geral.md](../labs/10-praticas-visao-geral.md) | Visão geral das práticas | — |
+| 11 | [11-pratica-em3p-easymodbus.md](../labs/11-pratica-em3p-easymodbus.md) | Prática 1: EM3P + EasyModbusTCP | 1.5 h |
+| 12 | [12-pratica-em3p-python.md](../labs/12-pratica-em3p-python.md) | Prática 2: EM3P + Python | 1.5 h |
+| 13 | [13-pratica-em3p-nodered.md](../labs/13-pratica-em3p-nodered.md) | Prática 3: EM3P + Node-RED | 2 h |
+| 14 | [14-pratica-vfd7-easymodbus.md](../labs/14-pratica-vfd7-easymodbus.md) | Prática 4: VFD7 + EasyModbusTCP | 1.5 h |
+| 15 | [15-pratica-vfd7-python.md](../labs/15-pratica-vfd7-python.md) | Prática 5: VFD7 + Python | 2 h |
+| 16 | [16-pratica-vfd7-nodered.md](../labs/16-pratica-vfd7-nodered.md) | Prática 6: VFD7 + Node-RED | 2 h |
+| 17 | [17-pratica-grupo-1-3clientes-1vfd.md](../labs/17-pratica-grupo-1-3clientes-1vfd.md) | Prática Grupo 1: 3 clientes / 1 VFD | 3 h |
+| 18 | [18-pratica-grupo-2-1cliente-3vfds.md](../labs/18-pratica-grupo-2-1cliente-3vfds.md) | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) | 3 h |
+| 19 | [19-pratica-grupo-3-3clientes-3vfds.md](../labs/19-pratica-grupo-3-3clientes-3vfds.md) | Prática Grupo 3: 3 clientes / 3 VFDs | 3 h |
+| 20 | [20-pratica-grupo-4-mini-planta.md](../labs/20-pratica-grupo-4-mini-planta.md) | Prática Grupo 4: 2 VFDs + 1 medidor | 4 h |
 
 ---
 
@@ -123,7 +123,7 @@ Se você é instrutor e quer usar este material:
 
 - O **Plano de Ensino** ([00-plano-de-ensino.md](00-plano-de-ensino.md)) traz a estrutura formal: ementa, objetivos, cronograma, avaliação.
 - Os módulos podem ser **adaptados** para outros formatos (workshops, treinamentos corporativos).
-- As práticas em [Módulo 10](10-praticas-laboratorio.md) podem ser usadas isoladamente.
+- As práticas em [Módulo 10](../labs/10-praticas-visao-geral.md) podem ser usadas isoladamente.
 
 Sinta-se à vontade para adaptar — apenas mantenha a atribuição.
 

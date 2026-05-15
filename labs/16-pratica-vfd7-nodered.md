@@ -465,7 +465,7 @@ Submeta:
 
 ## 10. Próximos Passos
 
-- **[Prática 7 — Multi-dispositivos em grupo](17-pratica-grupo-multi-dispositivos.md)**: a culminação — integre múltiplos dispositivos com 3 colegas.
+- **[Práticas em Grupo (1 a 4)](10-praticas-visao-geral.md#práticas-em-grupo)**: a culminação — integre múltiplos dispositivos com 3 colegas.
 
 ---
 

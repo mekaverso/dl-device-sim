@@ -139,7 +139,12 @@ Ao final da disciplina, o aluno deverá ser capaz de:
 
 ## 9. Organização dos Materiais Didáticos
 
-Esta disciplina é acompanhada por uma série de documentos em `background/`:
+O material está dividido em **duas pastas**:
+
+- `background/` — fundamentação teórica (módulos 0 a 9)
+- `labs/` — práticas de laboratório (módulos 10 a 20)
+
+### 9.1 Pasta `background/`
 
 | Arquivo | Conteúdo |
 |---------|----------|
@@ -153,6 +158,12 @@ Esta disciplina é acompanhada por uma série de documentos em `background/`:
 | `07-modbus-ascii.md`                             | Variante ASCII e LRC |
 | `08-fundamentos-tcp-ip.md`                       | IP, TCP, UDP, sockets, portas |
 | `09-modbus-tcp.md`                               | MBAP, encapsulamento, porta 502 |
+| `README.md`                                       | Índice geral e guia de uso |
+
+### 9.2 Pasta `labs/`
+
+| Arquivo | Conteúdo |
+|---------|----------|
 | `10-praticas-visao-geral.md`                     | Visão geral e índice das práticas |
 | `11-pratica-em3p-easymodbus.md`                  | Prática 1: medidor com EasyModbusTCP |
 | `12-pratica-em3p-python.md`                      | Prática 2: medidor com Python |
