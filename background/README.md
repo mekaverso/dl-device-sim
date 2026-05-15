@@ -37,7 +37,10 @@ Material didático completo para uma disciplina de **comunicações industriais*
 | 14 | [14-pratica-vfd7-easymodbus.md](14-pratica-vfd7-easymodbus.md) | Prática 4: VFD7 + EasyModbusTCP | 1.5 h |
 | 15 | [15-pratica-vfd7-python.md](15-pratica-vfd7-python.md) | Prática 5: VFD7 + Python | 2 h |
 | 16 | [16-pratica-vfd7-nodered.md](16-pratica-vfd7-nodered.md) | Prática 6: VFD7 + Node-RED | 2 h |
-| 17 | [17-pratica-grupo-multi-dispositivos.md](17-pratica-grupo-multi-dispositivos.md) | Prática 7: Grupo, multi-dispositivos | 4 h |
+| 17 | [17-pratica-grupo-1-3clientes-1vfd.md](17-pratica-grupo-1-3clientes-1vfd.md) | Prática Grupo 1: 3 clientes / 1 VFD | 3 h |
+| 18 | [18-pratica-grupo-2-1cliente-3vfds.md](18-pratica-grupo-2-1cliente-3vfds.md) | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) | 3 h |
+| 19 | [19-pratica-grupo-3-3clientes-3vfds.md](19-pratica-grupo-3-3clientes-3vfds.md) | Prática Grupo 3: 3 clientes / 3 VFDs | 3 h |
+| 20 | [20-pratica-grupo-4-mini-planta.md](20-pratica-grupo-4-mini-planta.md) | Prática Grupo 4: 2 VFDs + 1 medidor | 4 h |
 
 ---
 
@@ -47,9 +50,9 @@ A disciplina foi desenhada como **uma jornada de camadas**, do mais físico (el�
 
 ```
    ┌─────────────────────────────────────┐
-   │  Módulo 17: Prática em grupo        │  ← integração total
+   │  Módulos 17-20: 4 práticas em grupo │  ← integração e coordenação
    ├─────────────────────────────────────┤
-   │  Módulos 11-16: Práticas individuais│  ← consolidação
+   │  Módulos 11-16: Práticas individuais│  ← consolidação por ferramenta
    ├─────────────────────────────────────┤
    │  Módulo 10: Visão geral das práticas│  ← orientação
    ├─────────────────────────────────────┤

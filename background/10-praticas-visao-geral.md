@@ -63,7 +63,7 @@ Se houver respostas, você está pronto. Se não, verifique a rede Wi-Fi antes d
 
 ---
 
-## Catálogo das Práticas
+## Catálogo das Práticas (10 ao todo: 6 individuais + 4 em grupo)
 
 ### Práticas Individuais — MK-EM3P (Medidor de Energia)
 
@@ -81,11 +81,14 @@ Se houver respostas, você está pronto. Se não, verifique a rede Wi-Fi antes d
 | 5 | [15-pratica-vfd7-python.md](15-pratica-vfd7-python.md) | Python + pymodbus | Automação de sequências de partida |
 | 6 | [16-pratica-vfd7-nodered.md](16-pratica-vfd7-nodered.md) | Node-RED | HMI completa com controles e monitoração |
 
-### Prática em Grupo — Multi-dispositivos
+### Práticas em Grupo
 
 | # | Arquivo | Configuração | Foco |
 |---|---------|-------------|------|
-| 7 | [17-pratica-grupo-multi-dispositivos.md](17-pratica-grupo-multi-dispositivos.md) | 3 alunos, 3 smartphones, 3 laptops | Integração distribuída, multi-cliente, lógica coordenada |
+| G1 | [17-pratica-grupo-1-3clientes-1vfd.md](17-pratica-grupo-1-3clientes-1vfd.md) | 3 alunos / 1 VFD | Operador + Supervisor + Manutenção (papéis) |
+| G2 | [18-pratica-grupo-2-1cliente-3vfds.md](18-pratica-grupo-2-1cliente-3vfds.md) | 1 cliente / 3 VFDs | Orquestração centralizada (sequência, load sharing) |
+| G3 | [19-pratica-grupo-3-3clientes-3vfds.md](19-pratica-grupo-3-3clientes-3vfds.md) | 3 alunos / 3 VFDs | Operação distribuída independente |
+| G4 | [20-pratica-grupo-4-mini-planta.md](20-pratica-grupo-4-mini-planta.md) | 3 alunos / 2 VFDs + 1 medidor | Mini-planta integrada com interlock |
 
 ---
 
@@ -138,7 +141,10 @@ Embora as práticas sejam independentes, sugerimos a seguinte ordem para um alun
    ④ Prática 4 (VFD7 + EasyModbusTCP)       ← controle interativo
    ⑤ Prática 5 (VFD7 + Python)              ← automação de controle
    ⑥ Prática 6 (VFD7 + Node-RED)            ← HMI completa
-   ⑦ Prática 7 (Grupo, multi-dispositivos)  ← integração final
+   ⑦ Prática Grupo 1 (3 clientes / 1 VFD)        ← papéis distintos
+   ⑧ Prática Grupo 2 (1 cliente / 3 VFDs)        ← orquestração
+   ⑨ Prática Grupo 3 (3 clientes / 3 VFDs)       ← operação distribuída
+   ⑩ Prática Grupo 4 (3 clientes / 2 VFDs + 1 medidor) ← integração final
 ```
 
 Mas você pode pular para qualquer uma se já tem familiaridade com partes do conteúdo.
@@ -147,8 +153,8 @@ Mas você pode pular para qualquer uma se já tem familiaridade com partes do co
 
 ## Avaliação
 
-Cada prática individual vale **3 %** da nota total (6 × 3 % = 18 %).
-A prática em grupo vale **7 %**.
+Cada **prática individual** vale **2 %** da nota total (6 × 2 % = 12 %).
+Cada **prática em grupo** vale **3,25 %** (4 × 3,25 % = 13 %).
 Total: **25 %** das avaliações de laboratório.
 
 **Critérios por prática:**

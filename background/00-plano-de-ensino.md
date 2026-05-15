@@ -52,7 +52,10 @@ Ao final da disciplina, o aluno deverá ser capaz de:
 | 10     | Visão Geral das Práticas                          | 0,5       | Orientação |
 | 11-13  | Práticas com MK-EM3P (medidor): EasyModbus, Python, Node-RED | 5,5 | Prática individual |
 | 14-16  | Práticas com MK-VFD7 (VFD): EasyModbus, Python, Node-RED     | 5,5 | Prática individual |
-| 17     | Prática em Grupo Multi-dispositivos               | 4         | Prática em grupo |
+| 17     | Prática Grupo 1: 3 clientes / 1 VFD (papéis)      | 3         | Prática em grupo |
+| 18     | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração)| 3         | Prática em grupo |
+| 19     | Prática Grupo 3: 3 clientes / 3 VFDs (distribuído)| 3         | Prática em grupo |
+| 20     | Prática Grupo 4: 2 VFDs + 1 medidor (mini-planta) | 4         | Prática em grupo |
 
 ---
 
@@ -117,7 +120,7 @@ Ao final da disciplina, o aluno deverá ser capaz de:
 | 12     | Módulo 9: Modbus TCP — MBAP, encapsulamento                    |
 | 13     | Práticas 1-3: MK-EM3P (EasyModbus, Python, Node-RED)           |
 | 14     | Práticas 4-6: MK-VFD7 (EasyModbus, Python, Node-RED)           |
-| 15     | **Prova teórica II** + Prática 7 em grupo (multi-dispositivos) |
+| 15     | **Prova teórica II** + Práticas em Grupo 1-4 (multi-dispositivos)|
 
 ---
 
@@ -157,7 +160,10 @@ Esta disciplina é acompanhada por uma série de documentos em `background/`:
 | `14-pratica-vfd7-easymodbus.md`                  | Prática 4: VFD com EasyModbusTCP |
 | `15-pratica-vfd7-python.md`                      | Prática 5: VFD com Python |
 | `16-pratica-vfd7-nodered.md`                     | Prática 6: VFD com Node-RED |
-| `17-pratica-grupo-multi-dispositivos.md`         | Prática 7: 3 alunos, 3 smartphones, 3 laptops |
+| `17-pratica-grupo-1-3clientes-1vfd.md`           | Prática Grupo 1: 3 clientes / 1 VFD (papéis distintos) |
+| `18-pratica-grupo-2-1cliente-3vfds.md`           | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) |
+| `19-pratica-grupo-3-3clientes-3vfds.md`          | Prática Grupo 3: 3 clientes / 3 VFDs (distribuído) |
+| `20-pratica-grupo-4-mini-planta.md`              | Prática Grupo 4: 2 VFDs + 1 medidor (mini-planta) |
 
 ---
 
