@@ -30,6 +30,7 @@ Material didático completo para uma disciplina de **comunicações industriais*
 | 7 | [07-modbus-ascii.md](07-modbus-ascii.md) | Modbus ASCII: variante textual | 2 h |
 | 8 | [08-fundamentos-tcp-ip.md](08-fundamentos-tcp-ip.md) | TCP/IP, sockets, portas | 6 h |
 | 9 | [09-modbus-tcp.md](09-modbus-tcp.md) | Modbus TCP: MBAP, encapsulamento | 6 h |
+| — | [10-banco-de-questoes.md](10-banco-de-questoes.md) | Banco de 50 questões (verificação de aprendizagem) | — |
 | Lab | [01-praticas-visao-geral.md](../labs/01-praticas-visao-geral.md) | Visão geral das práticas | — |
 | Lab 1 | [02-pratica-em3p-easymodbus.md](../labs/02-pratica-em3p-easymodbus.md) | Prática 1: EM3P + EasyModbusTCP | 1.5 h |
 | Lab 2 | [03-pratica-em3p-python.md](../labs/03-pratica-em3p-python.md) | Prática 2: EM3P + Python | 1.5 h |

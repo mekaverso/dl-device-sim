@@ -158,6 +158,7 @@ O material está dividido em **duas pastas**:
 | `07-modbus-ascii.md`                             | Variante ASCII e LRC |
 | `08-fundamentos-tcp-ip.md`                       | IP, TCP, UDP, sockets, portas |
 | `09-modbus-tcp.md`                               | MBAP, encapsulamento, porta 502 |
+| `10-banco-de-questoes.md`                        | Banco de 50 questões de verificação de aprendizagem |
 | `README.md`                                       | Índice geral e guia de uso |
 
 ### 9.2 Pasta `labs/`
