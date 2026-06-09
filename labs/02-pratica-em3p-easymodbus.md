@@ -301,9 +301,9 @@ Submeta um relatório PDF contendo:
 
 Após dominar esta prática:
 
-- **[Prática 2 — EM3P com Python](03-pratica-em3p-python.md)**: automatize o que você fez manualmente.
-- **[Prática 3 — EM3P com Node-RED](04-pratica-em3p-nodered.md)**: construa um dashboard visual.
-- **[Prática 4 — VFD7 com EasyModbusTCP](05-pratica-vfd7-easymodbus.md)**: controle um inversor de frequência.
+- **[Prática 2 — EM3P com Python](04-pratica-em3p-python.md)**: automatize o que você fez manualmente.
+- **[Prática 3 — EM3P com Node-RED](05-pratica-em3p-nodered.md)**: construa um dashboard visual.
+- **[Prática 4 — VFD7 com EasyModbusTCP](06-pratica-vfd7-easymodbus.md)**: controle um inversor de frequência.
 
 ---
 

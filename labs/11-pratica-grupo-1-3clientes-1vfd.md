@@ -427,9 +427,9 @@ Um único relatório de equipe contendo:
 
 ## 11. Próximas Práticas em Grupo
 
-- **[Prática Grupo 2 — 1 cliente, 3 VFDs](09-pratica-grupo-2-1cliente-3vfds.md)**: orquestração centralizada.
-- **[Prática Grupo 3 — 3 clientes, 3 VFDs](10-pratica-grupo-3-3clientes-3vfds.md)**: operação distribuída independente.
-- **[Prática Grupo 4 — Mini-planta integrada](11-pratica-grupo-4-mini-planta.md)**: 2 VFDs + 1 medidor com papéis distintos.
+- **[Prática Grupo 2 — 1 cliente, 3 VFDs](12-pratica-grupo-2-1cliente-3vfds.md)**: orquestração centralizada.
+- **[Prática Grupo 3 — 3 clientes, 3 VFDs](13-pratica-grupo-3-3clientes-3vfds.md)**: operação distribuída independente.
+- **[Prática Grupo 4 — Mini-planta integrada](14-pratica-grupo-4-mini-planta.md)**: 2 VFDs + 1 medidor com papéis distintos.
 
 ---
 

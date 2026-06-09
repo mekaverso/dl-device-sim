@@ -460,7 +460,7 @@ Submeta:
 
 ## 10. Próximos Passos
 
-- **[Prática 6 — VFD7 com Node-RED](07-pratica-vfd7-nodered.md)**: amplie para controle de inversor.
+- **[Prática 6 — VFD7 com Node-RED](09-pratica-vfd7-nodered.md)**: amplie para controle de inversor.
 - **[Práticas em Grupo (1 a 4)](10-praticas-visao-geral.md#práticas-em-grupo)**: coordene múltiplos dispositivos com colegas.
 
 ---

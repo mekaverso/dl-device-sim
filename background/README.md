@@ -33,15 +33,18 @@ Material didático completo para uma disciplina de **comunicações industriais*
 | — | [10-banco-de-questoes.md](10-banco-de-questoes.md) | Banco de 50 questões (verificação de aprendizagem) | — |
 | Lab | [01-praticas-visao-geral.md](../labs/01-praticas-visao-geral.md) | Visão geral das práticas | — |
 | Lab 1 | [02-pratica-em3p-easymodbus.md](../labs/02-pratica-em3p-easymodbus.md) | Prática 1: EM3P + EasyModbusTCP | 1.5 h |
-| Lab 2 | [03-pratica-em3p-python.md](../labs/03-pratica-em3p-python.md) | Prática 2: EM3P + Python | 1.5 h |
-| Lab 3 | [04-pratica-em3p-nodered.md](../labs/04-pratica-em3p-nodered.md) | Prática 3: EM3P + Node-RED | 2 h |
-| Lab 4 | [05-pratica-vfd7-easymodbus.md](../labs/05-pratica-vfd7-easymodbus.md) | Prática 4: VFD7 + EasyModbusTCP | 1.5 h |
-| Lab 5 | [06-pratica-vfd7-python.md](../labs/06-pratica-vfd7-python.md) | Prática 5: VFD7 + Python | 2 h |
-| Lab 6 | [07-pratica-vfd7-nodered.md](../labs/07-pratica-vfd7-nodered.md) | Prática 6: VFD7 + Node-RED | 2 h |
-| Lab G1 | [08-pratica-grupo-1-3clientes-1vfd.md](../labs/08-pratica-grupo-1-3clientes-1vfd.md) | Prática Grupo 1: 3 clientes / 1 VFD | 3 h |
-| Lab G2 | [09-pratica-grupo-2-1cliente-3vfds.md](../labs/09-pratica-grupo-2-1cliente-3vfds.md) | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) | 3 h |
-| Lab G3 | [10-pratica-grupo-3-3clientes-3vfds.md](../labs/10-pratica-grupo-3-3clientes-3vfds.md) | Prática Grupo 3: 3 clientes / 3 VFDs | 3 h |
-| Lab G4 | [11-pratica-grupo-4-mini-planta.md](../labs/11-pratica-grupo-4-mini-planta.md) | Prática Grupo 4: 2 VFDs + 1 medidor | 4 h |
+| Lab 2 | [03-pratica-em3p-codesys.md](../labs/03-pratica-em3p-codesys.md) | Prática 2: EM3P + CODESYS WebVisu **(obrigatória)** | 3 h |
+| Lab 3 | [04-pratica-em3p-python.md](../labs/04-pratica-em3p-python.md) | Prática 3: EM3P + Python | 1.5 h |
+| Lab 4 | [05-pratica-em3p-nodered.md](../labs/05-pratica-em3p-nodered.md) | Prática 4: EM3P + Node-RED | 2 h |
+| Lab 5 | [06-pratica-vfd7-easymodbus.md](../labs/06-pratica-vfd7-easymodbus.md) | Prática 5: VFD7 + EasyModbusTCP | 1.5 h |
+| Lab 6 | [07-pratica-vfd7-codesys.md](../labs/07-pratica-vfd7-codesys.md) | Prática 6: VFD7 + CODESYS WebVisu **(obrigatória)** | 3 h |
+| Lab 7 | [08-pratica-vfd7-python.md](../labs/08-pratica-vfd7-python.md) | Prática 7: VFD7 + Python | 2 h |
+| Lab 8 | [09-pratica-vfd7-nodered.md](../labs/09-pratica-vfd7-nodered.md) | Prática 8: VFD7 + Node-RED | 2 h |
+| Lab 9 | [10-pratica-codesys-scada.md](../labs/10-pratica-codesys-scada.md) | Prática 9: SCADA CODESYS (EM3P + VFD7) **(obrigatória)** | 4 h |
+| Lab G1 | [11-pratica-grupo-1-3clientes-1vfd.md](../labs/11-pratica-grupo-1-3clientes-1vfd.md) | Prática Grupo 1: 3 clientes / 1 VFD | 3 h |
+| Lab G2 | [12-pratica-grupo-2-1cliente-3vfds.md](../labs/12-pratica-grupo-2-1cliente-3vfds.md) | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) | 3 h |
+| Lab G3 | [13-pratica-grupo-3-3clientes-3vfds.md](../labs/13-pratica-grupo-3-3clientes-3vfds.md) | Prática Grupo 3: 3 clientes / 3 VFDs | 3 h |
+| Lab G4 | [14-pratica-grupo-4-mini-planta.md](../labs/14-pratica-grupo-4-mini-planta.md) | Prática Grupo 4: 2 VFDs + 1 medidor | 4 h |
 
 ---
 
@@ -86,6 +89,7 @@ A disciplina foi desenhada como **uma jornada de camadas**, do mais físico (el�
 | Ferramenta | Função |
 |------------|--------|
 | **EasyModbusTCP** | Cliente Modbus para testes interativos |
+| **CODESYS Development System** | SoftPLC IEC 61131-3 com Modbus TCP Master e WebVisu SCADA |
 | **Python + pymodbus** | Implementação programática de clientes e servidores |
 | **Node-RED** | Middleware visual para dashboards e integração |
 | **Wireshark** | Análise de tráfego de rede |

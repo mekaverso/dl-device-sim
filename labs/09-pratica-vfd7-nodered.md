@@ -33,7 +33,7 @@ Nesta prática, você construirá essa IHM do zero usando Node-RED.
 
 ### 2.2 Mapa do MK-VFD7
 
-Veja mapa completo na [Prática 4](05-pratica-vfd7-easymodbus.md). Resumo:
+Veja mapa completo na [Prática 4](06-pratica-vfd7-easymodbus.md). Resumo:
 
 | Endereço | Variável             | Tipo    | Acesso |
 |----------|----------------------|---------|--------|

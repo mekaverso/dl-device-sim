@@ -431,7 +431,7 @@ Agora visualizem essa orquestração em um dashboard.
 
 **Configure 3 servidores Modbus** no Node-RED (cada um apontando para um IP).
 
-**Para cada VFD**, crie um fluxo de leitura + decodificação (use o function da Prática 6 [07-pratica-vfd7-nodered.md], adaptando os IPs).
+**Para cada VFD**, crie um fluxo de leitura + decodificação (use o function da Prática 6 [09-pratica-vfd7-nodered.md], adaptando os IPs).
 
 **No dashboard**, crie 3 colunas (uma por VFD), cada uma com:
 
@@ -531,8 +531,8 @@ Um relatório de equipe contendo:
 
 ## 11. Próximas Práticas
 
-- **[Prática Grupo 3 — 3 clientes, 3 VFDs](10-pratica-grupo-3-3clientes-3vfds.md)**: cada aluno controla seu próprio VFD, mas vê todos.
-- **[Prática Grupo 4 — Mini-planta integrada](11-pratica-grupo-4-mini-planta.md)**: papéis distintos com 2 VFDs + 1 medidor.
+- **[Prática Grupo 3 — 3 clientes, 3 VFDs](13-pratica-grupo-3-3clientes-3vfds.md)**: cada aluno controla seu próprio VFD, mas vê todos.
+- **[Prática Grupo 4 — Mini-planta integrada](14-pratica-grupo-4-mini-planta.md)**: papéis distintos com 2 VFDs + 1 medidor.
 
 ---
 

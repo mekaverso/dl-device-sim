@@ -4,7 +4,7 @@
 
 ## Sobre Este Material
 
-Este guia organiza **10 práticas de laboratório autônomas**, projetadas para que o aluno desenvolva domínio prático de Modbus TCP usando os simuladores do nosso projeto:
+Este guia organiza **13 práticas de laboratório autônomas**, projetadas para que o aluno desenvolva domínio prático de Modbus TCP usando os simuladores do nosso projeto:
 
 - **MK-EM3P** — medidor de energia trifásico
 - **MK-VFD7** — inversor de frequência (motor drive)
@@ -71,9 +71,15 @@ Para cada dispositivo (MK-EM3P e MK-VFD7), a prática com **EasyModbusTCP é obr
 
 > EasyModbusTCP é uma ferramenta gráfica que permite enviar comandos Modbus manualmente, registro a registro. Usá-la primeiro é o equivalente a "ver os pacotes na mão" antes de escrever código.
 
+### Práticas com CODESYS — OBRIGATÓRIAS
+
+As três práticas com **CODESYS Development System são obrigatórias**. Elas introduzem o ambiente de programação IEC 61131-3 com SoftPLC, a comunicação Modbus TCP via bloco mestre/escravo no CODESYS, e culminam em uma interface SCADA completa com WebVisu — integrando ambos os dispositivos simultaneamente.
+
+> CODESYS é o ambiente de desenvolvimento IEC 61131-3 mais utilizado no mundo industrial. Saber configurar comunicação Modbus e criar interfaces SCADA no CODESYS é uma habilidade diretamente empregável em projetos reais.
+
 ### Práticas de Implementação — Python OU Node-RED (sua escolha)
 
-Após a prática obrigatória com EasyModbusTCP, você vai implementar uma solução para cada dispositivo. Aqui, **você escolhe uma ferramenta: Python ou Node-RED**. Não é necessário fazer as duas.
+Além das práticas obrigatórias, você vai implementar uma solução adicional para cada dispositivo em uma ferramenta de sua escolha. Aqui, **você escolhe uma: Python ou Node-RED**. Não é necessário fazer as duas.
 
 | Escolha | Quando faz sentido |
 |---------|-------------------|
@@ -87,13 +93,18 @@ Após a prática obrigatória com EasyModbusTCP, você vai implementar uma solu�
 ```
    Para o MK-EM3P:
       ✔ Prática 1 — EasyModbusTCP (obrigatória)
-      ✔ Prática 2 — Python         ← escolha UMA
-        Prática 3 — Node-RED       ←
+      ✔ Prática 2 — CODESYS       (obrigatória)
+        Prática 3 — Python         ← escolha UMA
+        Prática 4 — Node-RED       ←
 
    Para o MK-VFD7:
-      ✔ Prática 4 — EasyModbusTCP (obrigatória)
-      ✔ Prática 5 — Python         ← escolha UMA
-        Prática 6 — Node-RED       ←
+      ✔ Prática 5 — EasyModbusTCP (obrigatória)
+      ✔ Prática 6 — CODESYS       (obrigatória)
+        Prática 7 — Python         ← escolha UMA
+        Prática 8 — Node-RED       ←
+
+   CODESYS SCADA Integrado:
+      ✔ Prática 9 — CODESYS SCADA (obrigatória)
 
    Em grupo (todos participam de todas):
       ✔ Prática G1 + G2 + G3 + G4
@@ -101,32 +112,40 @@ Após a prática obrigatória com EasyModbusTCP, você vai implementar uma solu�
 
 ---
 
-## Catálogo das Práticas (10 ao todo: 6 individuais + 4 em grupo)
+## Catálogo das Práticas (13 ao todo: 9 individuais + 4 em grupo)
 
 ### Práticas Individuais — MK-EM3P (Medidor de Energia)
 
 | # | Arquivo | Ferramenta | Obrigatoriedade |
 |---|---------|------------|-----------------|
 | 1 | [02-pratica-em3p-easymodbus.md](02-pratica-em3p-easymodbus.md) | EasyModbusTCP | **OBRIGATÓRIA** |
-| 2 | [03-pratica-em3p-python.md](03-pratica-em3p-python.md) | Python + pymodbus | Escolha: Python **ou** Node-RED |
-| 3 | [04-pratica-em3p-nodered.md](04-pratica-em3p-nodered.md) | Node-RED | Escolha: Python **ou** Node-RED |
+| 2 | [03-pratica-em3p-codesys.md](03-pratica-em3p-codesys.md) | CODESYS + WebVisu | **OBRIGATÓRIA** |
+| 3 | [04-pratica-em3p-python.md](04-pratica-em3p-python.md) | Python + pymodbus | Escolha: Python **ou** Node-RED |
+| 4 | [05-pratica-em3p-nodered.md](05-pratica-em3p-nodered.md) | Node-RED | Escolha: Python **ou** Node-RED |
 
 ### Práticas Individuais — MK-VFD7 (Inversor de Frequência)
 
 | # | Arquivo | Ferramenta | Obrigatoriedade |
 |---|---------|------------|-----------------|
-| 4 | [05-pratica-vfd7-easymodbus.md](05-pratica-vfd7-easymodbus.md) | EasyModbusTCP | **OBRIGATÓRIA** |
-| 5 | [06-pratica-vfd7-python.md](06-pratica-vfd7-python.md) | Python + pymodbus | Escolha: Python **ou** Node-RED |
-| 6 | [07-pratica-vfd7-nodered.md](07-pratica-vfd7-nodered.md) | Node-RED | Escolha: Python **ou** Node-RED |
+| 5 | [06-pratica-vfd7-easymodbus.md](06-pratica-vfd7-easymodbus.md) | EasyModbusTCP | **OBRIGATÓRIA** |
+| 6 | [07-pratica-vfd7-codesys.md](07-pratica-vfd7-codesys.md) | CODESYS + WebVisu | **OBRIGATÓRIA** |
+| 7 | [08-pratica-vfd7-python.md](08-pratica-vfd7-python.md) | Python + pymodbus | Escolha: Python **ou** Node-RED |
+| 8 | [09-pratica-vfd7-nodered.md](09-pratica-vfd7-nodered.md) | Node-RED | Escolha: Python **ou** Node-RED |
+
+### Prática Individual — CODESYS SCADA Integrado (EM3P + VFD7)
+
+| # | Arquivo | Ferramenta | Obrigatoriedade |
+|---|---------|------------|-----------------|
+| 9 | [10-pratica-codesys-scada.md](10-pratica-codesys-scada.md) | CODESYS + WebVisu SCADA | **OBRIGATÓRIA** |
 
 ### Práticas em Grupo
 
 | # | Arquivo | Configuração | Foco |
 |---|---------|-------------|------|
-| G1 | [08-pratica-grupo-1-3clientes-1vfd.md](08-pratica-grupo-1-3clientes-1vfd.md) | 3 alunos / 1 VFD | Operador + Supervisor + Manutenção (papéis) |
-| G2 | [09-pratica-grupo-2-1cliente-3vfds.md](09-pratica-grupo-2-1cliente-3vfds.md) | 1 cliente / 3 VFDs | Orquestração centralizada (sequência, load sharing) |
-| G3 | [10-pratica-grupo-3-3clientes-3vfds.md](10-pratica-grupo-3-3clientes-3vfds.md) | 3 alunos / 3 VFDs | Operação distribuída independente |
-| G4 | [11-pratica-grupo-4-mini-planta.md](11-pratica-grupo-4-mini-planta.md) | 3 alunos / 2 VFDs + 1 medidor | Mini-planta integrada com interlock |
+| G1 | [11-pratica-grupo-1-3clientes-1vfd.md](11-pratica-grupo-1-3clientes-1vfd.md) | 3 alunos / 1 VFD | Operador + Supervisor + Manutenção (papéis) |
+| G2 | [12-pratica-grupo-2-1cliente-3vfds.md](12-pratica-grupo-2-1cliente-3vfds.md) | 1 cliente / 3 VFDs | Orquestração centralizada (sequência, load sharing) |
+| G3 | [13-pratica-grupo-3-3clientes-3vfds.md](13-pratica-grupo-3-3clientes-3vfds.md) | 3 alunos / 3 VFDs | Operação distribuída independente |
+| G4 | [14-pratica-grupo-4-mini-planta.md](14-pratica-grupo-4-mini-planta.md) | 3 alunos / 2 VFDs + 1 medidor | Mini-planta integrada com interlock |
 
 ---
 

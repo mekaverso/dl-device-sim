@@ -50,12 +50,13 @@ Ao final da disciplina, o aluno deverá ser capaz de:
 | 8      | Fundamentos de Redes TCP/IP                       | 6         | Teórica    |
 | 9      | Modbus TCP — Encapsulamento e Particularidades    | 6         | Teórica + 2h Prática |
 | 10     | Visão Geral das Práticas                          | 0,5       | Orientação |
-| 11-13  | Práticas com MK-EM3P (medidor): EasyModbus, Python, Node-RED | 5,5 | Prática individual |
-| 14-16  | Práticas com MK-VFD7 (VFD): EasyModbus, Python, Node-RED     | 5,5 | Prática individual |
-| 17     | Prática Grupo 1: 3 clientes / 1 VFD (papéis)      | 3         | Prática em grupo |
-| 18     | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração)| 3         | Prática em grupo |
-| 19     | Prática Grupo 3: 3 clientes / 3 VFDs (distribuído)| 3         | Prática em grupo |
-| 20     | Prática Grupo 4: 2 VFDs + 1 medidor (mini-planta) | 4         | Prática em grupo |
+| 11-14  | Práticas com MK-EM3P: EasyModbus (obrig.), CODESYS (obrig.), Python, Node-RED | 8   | Prática individual |
+| 15-18  | Práticas com MK-VFD7: EasyModbus (obrig.), CODESYS (obrig.), Python, Node-RED | 8,5 | Prática individual |
+| 19     | CODESYS SCADA integrado: EM3P + VFD7 + WebVisu completo | 4         | Prática individual obrigatória |
+| 20     | Prática Grupo 1: 3 clientes / 1 VFD (papéis)      | 3         | Prática em grupo |
+| 21     | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração)| 3         | Prática em grupo |
+| 22     | Prática Grupo 3: 3 clientes / 3 VFDs (distribuído)| 3         | Prática em grupo |
+| 23     | Prática Grupo 4: 2 VFDs + 1 medidor (mini-planta) | 4         | Prática em grupo |
 
 ---
 
@@ -166,16 +167,19 @@ O material está dividido em **duas pastas**:
 | Arquivo | Conteúdo |
 |---------|----------|
 | `01-praticas-visao-geral.md`                     | Visão geral e índice das práticas |
-| `02-pratica-em3p-easymodbus.md`                  | Prática 1: medidor com EasyModbusTCP |
-| `03-pratica-em3p-python.md`                      | Prática 2: medidor com Python |
-| `04-pratica-em3p-nodered.md`                     | Prática 3: medidor com Node-RED |
-| `05-pratica-vfd7-easymodbus.md`                  | Prática 4: VFD com EasyModbusTCP |
-| `06-pratica-vfd7-python.md`                      | Prática 5: VFD com Python |
-| `07-pratica-vfd7-nodered.md`                     | Prática 6: VFD com Node-RED |
-| `08-pratica-grupo-1-3clientes-1vfd.md`           | Prática Grupo 1: 3 clientes / 1 VFD (papéis distintos) |
-| `09-pratica-grupo-2-1cliente-3vfds.md`           | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) |
-| `10-pratica-grupo-3-3clientes-3vfds.md`          | Prática Grupo 3: 3 clientes / 3 VFDs (distribuído) |
-| `11-pratica-grupo-4-mini-planta.md`              | Prática Grupo 4: 2 VFDs + 1 medidor (mini-planta) |
+| `02-pratica-em3p-easymodbus.md`                  | Prática 1: medidor com EasyModbusTCP (obrigatória) |
+| `03-pratica-em3p-codesys.md`                     | Prática 2: medidor com CODESYS + WebVisu **(obrigatória)** |
+| `04-pratica-em3p-python.md`                      | Prática 3: medidor com Python |
+| `05-pratica-em3p-nodered.md`                     | Prática 4: medidor com Node-RED |
+| `06-pratica-vfd7-easymodbus.md`                  | Prática 5: VFD com EasyModbusTCP (obrigatória) |
+| `07-pratica-vfd7-codesys.md`                     | Prática 6: VFD com CODESYS + WebVisu **(obrigatória)** |
+| `08-pratica-vfd7-python.md`                      | Prática 7: VFD com Python |
+| `09-pratica-vfd7-nodered.md`                     | Prática 8: VFD com Node-RED |
+| `10-pratica-codesys-scada.md`                    | Prática 9: CODESYS SCADA integrado EM3P + VFD7 **(obrigatória)** |
+| `11-pratica-grupo-1-3clientes-1vfd.md`           | Prática Grupo 1: 3 clientes / 1 VFD (papéis distintos) |
+| `12-pratica-grupo-2-1cliente-3vfds.md`           | Prática Grupo 2: 1 cliente / 3 VFDs (orquestração) |
+| `13-pratica-grupo-3-3clientes-3vfds.md`          | Prática Grupo 3: 3 clientes / 3 VFDs (distribuído) |
+| `14-pratica-grupo-4-mini-planta.md`              | Prática Grupo 4: 2 VFDs + 1 medidor (mini-planta) |
 
 ---
 

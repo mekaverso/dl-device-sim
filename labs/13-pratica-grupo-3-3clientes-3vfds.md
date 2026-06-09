@@ -415,7 +415,7 @@ Um relatório consolidado contendo:
 
 ## 11. Próxima Prática
 
-- **[Prática Grupo 4 — Mini-planta integrada](11-pratica-grupo-4-mini-planta.md)**: a culminação — 2 VFDs + 1 medidor com papéis distintos e coordenação realista.
+- **[Prática Grupo 4 — Mini-planta integrada](14-pratica-grupo-4-mini-planta.md)**: a culminação — 2 VFDs + 1 medidor com papéis distintos e coordenação realista.
 
 ---
 
