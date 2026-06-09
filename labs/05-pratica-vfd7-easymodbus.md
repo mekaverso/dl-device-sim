@@ -345,8 +345,8 @@ Submeta:
 
 ## 10. Próximos Passos
 
-- **[Prática 5 — VFD7 com Python](15-pratica-vfd7-python.md)**: automatize sequências de partida.
-- **[Prática 6 — VFD7 com Node-RED](16-pratica-vfd7-nodered.md)**: construa uma HMI completa.
+- **[Prática 5 — VFD7 com Python](06-pratica-vfd7-python.md)**: automatize sequências de partida.
+- **[Prática 6 — VFD7 com Node-RED](07-pratica-vfd7-nodered.md)**: construa uma HMI completa.
 
 ---
 

@@ -657,8 +657,8 @@ Submeta:
 
 ## 10. Próximos Passos
 
-- **[Prática 6 — VFD7 com Node-RED](16-pratica-vfd7-nodered.md)**: traga o mesmo controle para um dashboard visual.
-- **[Prática Grupo 2 — 1 cliente / 3 VFDs](18-pratica-grupo-2-1cliente-3vfds.md)**: coordene múltiplos inversores.
+- **[Prática 6 — VFD7 com Node-RED](07-pratica-vfd7-nodered.md)**: traga o mesmo controle para um dashboard visual.
+- **[Prática Grupo 2 — 1 cliente / 3 VFDs](09-pratica-grupo-2-1cliente-3vfds.md)**: coordene múltiplos inversores.
 
 ---
 

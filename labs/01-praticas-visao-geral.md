@@ -1,10 +1,10 @@
-# Módulo 10 — Visão Geral das Práticas
+# Visão Geral das Práticas de Laboratório
 
 > *"Cada prática a seguir é uma pequena jornada completa. Você pode fazê-las em qualquer ordem."*
 
-## Sobre Este Módulo
+## Sobre Este Material
 
-Este módulo organiza **7 práticas de laboratório autônomas**, projetadas para que o aluno desenvolva domínio prático de Modbus TCP usando os simuladores do nosso projeto:
+Este guia organiza **10 práticas de laboratório autônomas**, projetadas para que o aluno desenvolva domínio prático de Modbus TCP usando os simuladores do nosso projeto:
 
 - **MK-EM3P** — medidor de energia trifásico
 - **MK-VFD7** — inversor de frequência (motor drive)
@@ -63,32 +63,70 @@ Se houver respostas, você está pronto. Se não, verifique a rede Wi-Fi antes d
 
 ---
 
+## O Que é Obrigatório e O Que é Escolha
+
+### Práticas com EasyModbusTCP — OBRIGATÓRIAS
+
+Para cada dispositivo (MK-EM3P e MK-VFD7), a prática com **EasyModbusTCP é obrigatória**. Ela garante que você entendeu o protocolo Modbus TCP de forma direta, antes de automatizar qualquer coisa.
+
+> EasyModbusTCP é uma ferramenta gráfica que permite enviar comandos Modbus manualmente, registro a registro. Usá-la primeiro é o equivalente a "ver os pacotes na mão" antes de escrever código.
+
+### Práticas de Implementação — Python OU Node-RED (sua escolha)
+
+Após a prática obrigatória com EasyModbusTCP, você vai implementar uma solução para cada dispositivo. Aqui, **você escolhe uma ferramenta: Python ou Node-RED**. Não é necessário fazer as duas.
+
+| Escolha | Quando faz sentido |
+|---------|-------------------|
+| **Python** | Se você prefere código, quer praticar programação, ou vai implementar lógica mais complexa |
+| **Node-RED** | Se você prefere programação visual, quer um dashboard rápido, ou está focado em integração |
+
+> Dica do professor: escolha a ferramenta que você ainda **não domina**. O objetivo é aprender, não confirmar o que já sabe.
+
+**Resumo do que cada aluno entrega:**
+
+```
+   Para o MK-EM3P:
+      ✔ Prática 1 — EasyModbusTCP (obrigatória)
+      ✔ Prática 2 — Python         ← escolha UMA
+        Prática 3 — Node-RED       ←
+
+   Para o MK-VFD7:
+      ✔ Prática 4 — EasyModbusTCP (obrigatória)
+      ✔ Prática 5 — Python         ← escolha UMA
+        Prática 6 — Node-RED       ←
+
+   Em grupo (todos participam de todas):
+      ✔ Prática G1 + G2 + G3 + G4
+```
+
+---
+
 ## Catálogo das Práticas (10 ao todo: 6 individuais + 4 em grupo)
 
 ### Práticas Individuais — MK-EM3P (Medidor de Energia)
 
-| # | Arquivo | Ferramenta | Foco |
-|---|---------|------------|------|
-| 1 | [11-pratica-em3p-easymodbus.md](11-pratica-em3p-easymodbus.md) | EasyModbusTCP | Conexão, leitura e configuração interativa |
-| 2 | [12-pratica-em3p-python.md](12-pratica-em3p-python.md) | Python + pymodbus | Coleta automatizada e cálculos |
-| 3 | [13-pratica-em3p-nodered.md](13-pratica-em3p-nodered.md) | Node-RED | Dashboard com histórico e alteração de parâmetros |
+| # | Arquivo | Ferramenta | Obrigatoriedade |
+|---|---------|------------|-----------------|
+| 1 | [02-pratica-em3p-easymodbus.md](02-pratica-em3p-easymodbus.md) | EasyModbusTCP | **OBRIGATÓRIA** |
+| 2 | [03-pratica-em3p-python.md](03-pratica-em3p-python.md) | Python + pymodbus | Escolha: Python **ou** Node-RED |
+| 3 | [04-pratica-em3p-nodered.md](04-pratica-em3p-nodered.md) | Node-RED | Escolha: Python **ou** Node-RED |
 
 ### Práticas Individuais — MK-VFD7 (Inversor de Frequência)
 
-| # | Arquivo | Ferramenta | Foco |
-|---|---------|------------|------|
-| 4 | [14-pratica-vfd7-easymodbus.md](14-pratica-vfd7-easymodbus.md) | EasyModbusTCP | Controle interativo (start/stop/frequência) |
-| 5 | [15-pratica-vfd7-python.md](15-pratica-vfd7-python.md) | Python + pymodbus | Automação de sequências de partida |
-| 6 | [16-pratica-vfd7-nodered.md](16-pratica-vfd7-nodered.md) | Node-RED | HMI completa com controles e monitoração |
+| # | Arquivo | Ferramenta | Obrigatoriedade |
+|---|---------|------------|-----------------|
+| 4 | [05-pratica-vfd7-easymodbus.md](05-pratica-vfd7-easymodbus.md) | EasyModbusTCP | **OBRIGATÓRIA** |
+| 5 | [06-pratica-vfd7-python.md](06-pratica-vfd7-python.md) | Python + pymodbus | Escolha: Python **ou** Node-RED |
+| 6 | [07-pratica-vfd7-nodered.md](07-pratica-vfd7-nodered.md) | Node-RED | Escolha: Python **ou** Node-RED |
 
 ### Práticas em Grupo
 
 | # | Arquivo | Configuração | Foco |
 |---|---------|-------------|------|
-| G1 | [17-pratica-grupo-1-3clientes-1vfd.md](17-pratica-grupo-1-3clientes-1vfd.md) | 3 alunos / 1 VFD | Operador + Supervisor + Manutenção (papéis) |
-| G2 | [18-pratica-grupo-2-1cliente-3vfds.md](18-pratica-grupo-2-1cliente-3vfds.md) | 1 cliente / 3 VFDs | Orquestração centralizada (sequência, load sharing) |
-| G3 | [19-pratica-grupo-3-3clientes-3vfds.md](19-pratica-grupo-3-3clientes-3vfds.md) | 3 alunos / 3 VFDs | Operação distribuída independente |
-| G4 | [20-pratica-grupo-4-mini-planta.md](20-pratica-grupo-4-mini-planta.md) | 3 alunos / 2 VFDs + 1 medidor | Mini-planta integrada com interlock |
+| G1 | [08-pratica-grupo-1-3clientes-1vfd.md](08-pratica-grupo-1-3clientes-1vfd.md) | 3 alunos / 1 VFD | Operador + Supervisor + Manutenção (papéis) |
+| G2 | [09-pratica-grupo-2-1cliente-3vfds.md](09-pratica-grupo-2-1cliente-3vfds.md) | 1 cliente / 3 VFDs | Orquestração centralizada (sequência, load sharing) |
+| G3 | [10-pratica-grupo-3-3clientes-3vfds.md](10-pratica-grupo-3-3clientes-3vfds.md) | 3 alunos / 3 VFDs | Operação distribuída independente |
+| G4 | [11-pratica-grupo-4-mini-planta.md](11-pratica-grupo-4-mini-planta.md) | 3 alunos / 2 VFDs + 1 medidor | Mini-planta integrada com interlock |
 
 ---
 
@@ -132,28 +170,32 @@ Ao final de **todas** as práticas, você terá:
 
 ## Recomendação de Ordem (Opcional)
 
-Embora as práticas sejam independentes, sugerimos a seguinte ordem para um aluno **que está aprendendo do zero**:
+Embora as práticas sejam independentes, sugerimos a seguinte sequência para um aluno **que está aprendendo do zero**. As práticas de Python e Node-RED são alternativas — escolha uma para cada dispositivo:
 
 ```
-   ① Prática 1 (EM3P + EasyModbusTCP)       ← entender o protocolo na prática
-   ② Prática 2 (EM3P + Python)              ← aprender a automatizar
-   ③ Prática 3 (EM3P + Node-RED)            ← dashboard inicial
-   ④ Prática 4 (VFD7 + EasyModbusTCP)       ← controle interativo
-   ⑤ Prática 5 (VFD7 + Python)              ← automação de controle
-   ⑥ Prática 6 (VFD7 + Node-RED)            ← HMI completa
-   ⑦ Prática Grupo 1 (3 clientes / 1 VFD)        ← papéis distintos
-   ⑧ Prática Grupo 2 (1 cliente / 3 VFDs)        ← orquestração
-   ⑨ Prática Grupo 3 (3 clientes / 3 VFDs)       ← operação distribuída
-   ⑩ Prática Grupo 4 (3 clientes / 2 VFDs + 1 medidor) ← integração final
+   ① Prática 1 (EM3P + EasyModbusTCP)  ← OBRIGATÓRIA — protocolo na prática
+   ② Prática 2 (EM3P + Python)         ← ESCOLHA UMA
+      Prática 3 (EM3P + Node-RED)      ←
+
+   ③ Prática 4 (VFD7 + EasyModbusTCP)  ← OBRIGATÓRIA — controle interativo
+   ④ Prática 5 (VFD7 + Python)         ← ESCOLHA UMA
+      Prática 6 (VFD7 + Node-RED)      ←
+
+   ⑤ Prática Grupo 1 (3 clientes / 1 VFD)           ← papéis distintos
+   ⑥ Prática Grupo 2 (1 cliente / 3 VFDs)           ← orquestração
+   ⑦ Prática Grupo 3 (3 clientes / 3 VFDs)          ← operação distribuída
+   ⑧ Prática Grupo 4 (3 clientes / 2 VFDs + 1 medidor) ← integração final
 ```
 
-Mas você pode pular para qualquer uma se já tem familiaridade com partes do conteúdo.
+Você pode começar por qualquer prática se já tem familiaridade com partes do conteúdo — mas sempre faça o EasyModbusTCP antes de implementar em Python ou Node-RED para o mesmo dispositivo.
 
 ---
 
 ## Avaliação
 
-Cada **prática individual** vale **2 %** da nota total (6 × 2 % = 12 %).
+Cada aluno entrega **4 práticas individuais**: EasyModbusTCP para o EM3P, EasyModbusTCP para o VFD7, e mais uma de implementação por dispositivo (Python ou Node-RED).
+
+Cada **prática individual** vale **3 %** da nota total (4 × 3 % = 12 %).
 Cada **prática em grupo** vale **3,25 %** (4 × 3,25 % = 13 %).
 Total: **25 %** das avaliações de laboratório.
 

@@ -662,8 +662,8 @@ Submeta:
 
 ## 10. Próximos Passos
 
-- **[Prática 3 — EM3P com Node-RED](13-pratica-em3p-nodered.md)**: visualize os dados em um dashboard.
-- **[Prática 5 — VFD7 com Python](15-pratica-vfd7-python.md)**: aplique os mesmos princípios ao inversor.
+- **[Prática 3 — EM3P com Node-RED](04-pratica-em3p-nodered.md)**: visualize os dados em um dashboard.
+- **[Prática 5 — VFD7 com Python](06-pratica-vfd7-python.md)**: aplique os mesmos princípios ao inversor.
 
 ---
 
