@@ -9,14 +9,11 @@ __pycache__/
 *.pyo
 *.egg-info/
 dist/
-build/
 .venv/
 venv/
 
 # Android
 android-simulator/.gradle/
-android-simulator/build/
-android-simulator/app/build/
 android-simulator/local.properties
 *.apk
 *.aab
